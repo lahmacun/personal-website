@@ -16,11 +16,13 @@ header {
   }
 
   .contact-link {
-    padding: 15px 30px;
-    border: 1px solid #fff;
+    height: 50px;
+    padding: 0 30px;
     @include libreCaslonText;
     font-size: 20px;
+    line-height: 50px;
     color: #fff;
+    border: 1px solid #fff;
     transition: all 350ms;
 
     svg {
