@@ -15,15 +15,18 @@
 	<meta property="og:image" content="" />
 	<meta property="og:site_name" content="">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="dist/css/vendors.css">
 	<link rel="stylesheet" href="dist/css/main.min.css">
 </head>
 <body class="{%block bodyClass %}{% endblock %}">
 	<main>
 		{% include "../partials/header.html" %}
-	
+
 		{% block content %}{% endblock %}
-	
+
 		{% include "../partials/footer.html" %}
 	</main>
 

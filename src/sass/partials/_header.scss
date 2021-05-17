@@ -1,1 +1,44 @@
-header {}
+header {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+
+  .logo {
+    width: 103px;
+    height: auto;
+    transition: transform 1s;
+
+    &:hover {
+      transform: rotate(290deg);
+    }
+  }
+
+  .contact-link {
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 20px;
+    color: #fff;
+    transition: all 350ms;
+
+    svg {
+      path {
+        transition: all 350ms;
+      }
+    }
+
+    &:hover {
+      text-decoration: none;
+      background: #fff;
+      color: #030303;
+
+      svg {
+        path {
+          stroke: #030303;
+        }
+      }
+    }
+  }
+}
