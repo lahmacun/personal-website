@@ -3,7 +3,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
+  height: 75px;
 
   @media all and (max-width: 996px) {
     margin: 30px auto 40px;
