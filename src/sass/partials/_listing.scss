@@ -1,6 +1,14 @@
 .listing {
   margin-bottom: 70px;
 
+  &:last-child {
+    ul {
+      li:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
   h2 {
     position: relative;
     @include libreCaslonText;
