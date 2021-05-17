@@ -1,0 +1,86 @@
+.listing {
+  margin-bottom: 70px;
+
+  h2 {
+    position: relative;
+    @include libreCaslonText;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 70px;
+
+    &:before {
+      content: attr(data-prefix);
+      position: absolute;
+      left: -51px;
+      width: 50px;
+      line-height: 16px;
+      bottom: 12px;
+      text-align: right;
+      font-size: 16px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 20px 0;
+      position: relative;
+      border-bottom: 0.5px solid rgba(255, 255, 255, .4);
+
+      a {
+        color: #fff;
+        font-size: 18px;
+        @include camptonLight;
+        position: relative;
+
+        &:hover {
+          text-decoration: none;
+
+          &:before {
+            opacity: 1;
+            width: 100%;
+          }
+        }
+
+        &:before {
+          content: "";
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+          background: #fff;
+          height: 1px;
+          width: 0px;
+          opacity: 0;
+          transition: all 500ms;
+        }
+      }
+    }
+  }
+
+  .more {
+    margin: 50px auto 0;
+    color: #fff;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    @include camptonLight;
+
+    img {
+      position: relative;
+      top: 0;
+      transition: all 350ms;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      img {
+        top: 8px;
+      }
+    }
+  }
+}

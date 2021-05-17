@@ -1,5 +1,5 @@
 header {
-  margin-top: 70px;
+  margin: 70px auto 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,7 +18,7 @@ header {
   .contact-link {
     padding: 15px 30px;
     border: 1px solid #fff;
-    font-family: 'Libre Caslon Text', serif;
+    @include libreCaslonText;
     font-size: 20px;
     color: #fff;
     transition: all 350ms;

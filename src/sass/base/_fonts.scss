@@ -1,5 +1,10 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
+@font-face {
+  src: url('../fonts/campton-light.otf');
+  font-family: "Campton Light";
+}
+
 @mixin light {
   font-family: "Roboto";
   font-weight: 300;
@@ -23,4 +28,14 @@
 @mixin extra-bold {
   font-family: "Roboto";
   font-weight: 900;
+}
+
+@mixin libreCaslonText {
+  font-family: 'Libre Caslon Text', serif;
+  font-weight: 400;
+}
+
+@mixin camptonLight {
+  font-family: "Campton Light";
+  font-weight: 300;
 }

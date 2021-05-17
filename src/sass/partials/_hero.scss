@@ -1,0 +1,13 @@
+.hero {
+  p {
+    @include libreCaslonText;
+    color: #fff;
+    font-size: 52px;
+    line-height: 77px;
+  }
+
+  img {
+    max-width: 100%;
+    margin: 70px auto;
+  }
+}
