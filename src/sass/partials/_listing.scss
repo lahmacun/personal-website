@@ -16,6 +16,10 @@
     color: #fff;
     margin-bottom: 70px;
 
+    @media all and (max-width: 996px) {
+      margin-bottom: 10px;
+    }
+
     &:before {
       content: attr(data-prefix);
       position: absolute;
@@ -25,6 +29,10 @@
       bottom: 12px;
       text-align: right;
       font-size: 16px;
+
+      @media all and (max-width: 996px) {
+        display: none;
+      }
     }
   }
 

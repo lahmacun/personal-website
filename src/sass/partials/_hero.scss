@@ -4,6 +4,12 @@
     color: #fff;
     font-size: 52px;
     line-height: 77px;
+
+    @media all and (max-width: 996px) {
+      font-size: 28px;
+      line-height: 36px;
+      padding: 10px;
+    }
   }
 
   img {

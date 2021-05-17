@@ -5,6 +5,10 @@ header {
   justify-content: space-between;
   overflow: hidden;
 
+  @media all and (max-width: 996px) {
+    margin: 30px auto 40px;
+  }
+
   .logo {
     width: 103px;
     height: auto;
